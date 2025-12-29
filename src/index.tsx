@@ -173,7 +173,7 @@ class PdfjsAnnotationExtension {
         if (params.has(HASH_PARAMS_DEFAULT_SIDEBAR_OPEN) && params.get(HASH_PARAMS_DEFAULT_SIDEBAR_OPEN) === 'false') {
             this.setOption(HASH_PARAMS_DEFAULT_SIDEBAR_OPEN, 'false')
         } else {
-            console.warn(`${HASH_PARAMS_DEFAULT_EDITOR_ACTIVE} is undefined`);
+            console.warn(`${HASH_PARAMS_DEFAULT_SIDEBAR_OPEN} is undefined`);
         }
 
     }
